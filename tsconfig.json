@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "E:/Documentos/React_Projects/clones/spotify-clone-midu",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@/components": [
+        "src/components/*"
+      ],
+      "@/icons": [
+        "src/icons/*"
+      ]
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
+  },
+  "extends": "astro/tsconfigs/strict"
+}
